@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Cabin:wght@700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Reem+Kufi&display=swap");
 
-@media only screen and (min-width: 700px) and (min-height : 700px) {
+@media only screen and (min-width: 500px) and (min-height : 300px) {
     /*=====Variables=======*/
 :root {
     --font-primary: "Reem Kufi", sans-serif;
