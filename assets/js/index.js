@@ -1,13 +1,13 @@
-let isMobile =  window.innerWidth < 700 && window.innerHeight < 700?true:false;
+let isMobile =  window.innerWidth < 500 && window.innerHeight < 300?true:false;
 console.log(isMobile);
 if(isMobile){
     document.body.innerHTML = "Mobile Version Not Implemented.";
 }
 window.addEventListener("resize",(event)=>{
-    let isMobile =  window.innerWidth < 700 && window.innerHeight < 700?true:false;
+    let isMobile =  window.innerWidth < 500 && window.innerHeight < 300?true:false;
 console.log(isMobile);
 if(isMobile){
-    document.body.innerHTML = window.innerWidth +"  "+window.innerHeight+"  "+"Mobile Version Not Implemented.";
+    document.body.innerHTML = "Mobile Version Not Implemented";
 }else{
     location.reload();
 }
