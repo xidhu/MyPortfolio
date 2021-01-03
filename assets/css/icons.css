@@ -1,0 +1,67 @@
+
+  .sd{
+      margin-top: 3vh;
+      align-self: start;
+      background-image: url(../icons/sc-icons/SidebarSlider.svg);
+      width: 3vw;
+      height: 3vw;
+      background-size: contain;
+      background-repeat: no-repeat;
+      margin-left: auto;
+      margin-right: auto;
+  }
+  
+  .sd:hover{
+      background-image: url(../icons/sc-icons/SidebarSlide1.svg);
+  }
+
+  .fb{
+    margin-top: 3vh;
+    align-self: start;
+    background-image: url(../icons/sc-icons/Facebook.svg);
+}
+
+.fb:hover{
+    background-image: url(../icons/sc-icons/Facebook-1.svg);
+}
+
+.in{
+    margin-top: 3vh;
+    align-self: start;
+    background-image: url(../icons/sc-icons/Instagram.svg);
+}
+
+.in:hover{
+    background-image: url(../icons/sc-icons/Instagram-1.svg);
+}
+.tw{
+    margin-top: 3vh;
+    align-self: start;
+    background-image: url(../icons/sc-icons/Twitter.svg);
+}
+
+.tw:hover{
+    background-image: url(../icons/sc-icons/Twitter-1.svg);
+}
+
+.ln{
+    width: 4vw;
+    height: 4vw;
+    margin-top: 1vh;
+    align-self: start;
+    background-image: url(../icons/sc-icons/LinkedIn.svg);
+}
+
+.ln:hover{
+    background-image: url(../icons/sc-icons/LinkedIn-1.svg);
+}
+.pi{
+    
+    margin-top: 1vh;
+    align-self: start;
+    background-image: url(../icons/sc-icons/Pinetrest.svg);
+}
+
+.pi:hover{
+    background-image: url(../icons/sc-icons/Pinetrest-1.svg);
+}

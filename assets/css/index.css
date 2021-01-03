@@ -1,0 +1,198 @@
+@import url("https://fonts.googleapis.com/css2?family=Cabin:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Reem+Kufi&display=swap");
+
+@media only screen and (min-width: 700px) and (min-height : 700px) {
+    /*=====Variables=======*/
+:root {
+    --font-primary: "Reem Kufi", sans-serif;
+    --font-secondary: "Cabin", sans-serif;
+  
+    --sidebar-width: 7vw;
+    --sidebar-widthend: 10vw;
+  
+    --header-main-color: #27201f;
+    --header-height: 100vh;
+  }
+  
+  /*=====Main Tags=======*/
+  body {
+    position: absolute;
+    width: 100%;
+    height: 2619px;
+    background: #ffffff;
+    font-family: var(--font-primary);
+  }
+  
+  a {
+    color: inherit;
+    text-decoration: none;
+  }
+  
+  /*=====For Seconadry Font=======*/
+  .fs {
+    font-family: var(--font-secondary);
+  }
+  
+  .aside {
+    position: absolute;
+    left: var(--sidebar-widthend);
+  }
+  /*=====Header Section=======*/
+  .header-main {
+    width: 100%;
+    height: var(--header-height);
+    background-color: var(--header-main-color);
+  }
+  
+  /*=====NavBar Section=======*/
+  .nav-bar {
+    position: absolute;
+    width: 100vw;
+    height: 30vh;
+    left: 0vw;
+    top: 3vh;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  
+  .home-button {
+    position: absolute;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 2rem;
+    line-height: 61px;
+    left: var(--sidebar-widthend);
+    color: #ffffff;
+  }
+  
+  .a:hover {
+    color: #d4d4d4;
+  }
+  
+  .nav-btns {
+    margin-right: 3vw;
+    margin-top: 2vh;
+    display: flex;
+  }
+  
+  .nav-btn {
+    margin-left: 1vw;
+    margin-right: 1vw;
+    font-size: 20px;
+  }
+  
+  .xi-btn {
+    background-image: url("../images/xi.svg");
+    background-size: contain;
+    width: 40px;
+    height: 40px;
+    align-items: flex-end;
+    margin-top: -1vh;
+    margin-left: 1vw;
+    background-repeat: no-repeat;
+  }
+  
+  .xi-btn:hover {
+    background-image: url("../images/xi-hover.svg");
+  }
+  /*=====Header Contents=======*/
+  
+  .header-contents {
+    position: absolute;
+    left: var(--sidebar-widthend);
+    top: 16vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+  .round-design {
+    width: 30vw;
+    height: 30vh;
+    left: var(--sidebar-widthend);
+    top: 108px;
+    background-image: url("../images/Round-design.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+  
+  .header-text {
+    margin-top: 8vh;
+    font-family: Cabin;
+    font-size: 2rem;
+    width: 20vw;
+    font-weight: 300;
+    line-height: 49px;
+    text-align: left;
+    color: white;
+  }
+  
+  .btn {
+    margin-top: 5vh;
+    width: 10vw;
+    background: #ffffff;
+    box-shadow: 0px 0px 32px 10px rgba(0, 0, 0, 0.25);
+    font-size: 1.5rem;
+    padding: 2%;
+  }
+  
+  .header-img {
+    height: 100vh;
+    background-image: url(../images/BigName.svg);
+  }
+  
+  /*=====Sidebar Section=======*/
+  
+  .side-bar {
+    position: absolute;
+    width: var(--sidebar-width);
+    height: 100%;
+    left: 0px;
+    top: 0px;
+    background: #2f2b2b;
+    box-shadow: 4px 0px 10px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 14px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+  }
+  
+  .sc-icons {
+    flex-direction: column;
+    align-self: center;
+    margin-top: 40vh;
+    margin-bottom: auto;
+  }
+  
+  .sc-icon {
+    width: 3vw;
+    height: 3vw;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5vh;
+    margin-bottom: 10vh;
+  }
+  /*=====Services Section=======*/
+  
+  .blk {
+  
+    background-color: #27201f;
+  }
+  
+  .indexer {
+    width: 50px;
+    height: 16px;
+    background: #27201f;
+    border-radius: 25px;
+  }
+  
+  .white{
+      background-color: white;
+  }
+  
+  }
