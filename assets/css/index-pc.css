@@ -27,9 +27,9 @@
     overflow-x: hidden;
   }
 
-  body:after{
+  body::before{
     display:none;
-    content: url("../icons/Xi-Button-hover.png") url(../icons/Sidebar-Slider-1.png) 
+    content: url(../icons/Xi-Button-hover.png) url(../icons/Sidebar-Slider-1.png) 
     url(../icons/Xi-Button-hover.png) url(../icons/sc-icons/Facebook-1.png) url(../icons/sc-icons/Instagram-1.png)
     url(../icons/sc-icons/Twitter-1.png) url(../icons/sc-icons/LinkedIn-1.png) url(../icons/sc-icons/Pinetrest-1.png);
    }
