@@ -2,7 +2,7 @@
   .sd{
       margin-top: 3vh;
       align-self: start;
-      background-image: url(../icons/sc-icons/SidebarSlider.svg);
+      background-image: url(../icons/Sidebar-Slider.png);
       width: 3vw;
       height: 3vw;
       background-size: contain;
@@ -12,56 +12,83 @@
   }
   
   .sd:hover{
-      background-image: url(../icons/sc-icons/SidebarSlide1.svg);
+      background-image: url(../icons/Sidebar-Slider-1.png);
   }
 
+  .xi{
+    margin-bottom: 3vh;
+    align-self: start;
+    background-image: url(../icons/Xi-Button.png);
+    width: 3vw;
+    height: 3vw;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.xi:hover{
+    background-image: url(../icons/Xi-Button-hover.png);
+}
+
   .fb{
+      
     margin-top: 3vh;
     align-self: start;
-    background-image: url(../icons/sc-icons/Facebook.svg);
+    background-image: url(../icons/sc-icons/Facebook.png);
 }
 
 .fb:hover{
-    background-image: url(../icons/sc-icons/Facebook-1.svg);
+    width: 4vw;
+    height: 4vw;
+    background-image: url(../icons/sc-icons/Facebook-1.png);
 }
 
 .in{
     margin-top: 3vh;
     align-self: start;
-    background-image: url(../icons/sc-icons/Instagram.svg);
+    background-image: url(../icons/sc-icons/Instagram.png);
 }
 
 .in:hover{
-    background-image: url(../icons/sc-icons/Instagram-1.svg);
+    width: 4vw;
+    height: 4vw;
+    background-image: url(../icons/sc-icons/Instagram-1.png);
 }
 .tw{
     margin-top: 3vh;
     align-self: start;
-    background-image: url(../icons/sc-icons/Twitter.svg);
+    background-image: url(../icons/sc-icons/Twitter.png);
 }
 
 .tw:hover{
-    background-image: url(../icons/sc-icons/Twitter-1.svg);
+    width: 4vw;
+    height: 4vw;
+    background-image: url(../icons/sc-icons/Twitter-1.png);
 }
 
 .ln{
-    width: 4vw;
-    height: 4vw;
+    width: 3vw;
+    height: 3vw;
     margin-top: 1vh;
     align-self: start;
-    background-image: url(../icons/sc-icons/LinkedIn.svg);
+    background-image: url(../icons/sc-icons/LinkedIn.png);
 }
 
 .ln:hover{
-    background-image: url(../icons/sc-icons/LinkedIn-1.svg);
+    width: 5vw;
+    height: 5vw;
+    background-image: url(../icons/sc-icons/LinkedIn-1.png);
 }
 .pi{
     
     margin-top: 1vh;
     align-self: start;
-    background-image: url(../icons/sc-icons/Pinetrest.svg);
+    background-image: url(../icons/sc-icons/Pinetrest.png);
 }
 
 .pi:hover{
-    background-image: url(../icons/sc-icons/Pinetrest-1.svg);
+    width: 4vw;
+    height: 4vw;
+    background-image: url(../icons/sc-icons/Pinetrest-1.png);
 }

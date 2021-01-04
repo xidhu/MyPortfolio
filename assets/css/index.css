@@ -1,49 +1,51 @@
 @import url("https://fonts.googleapis.com/css2?family=Cabin:wght@700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Reem+Kufi&display=swap");
 
-@media only screen and (min-width: 400px) and (min-height : 200px) {
-    /*=====Variables=======*/
-:root {
+@media only screen and (min-width: 100px) and (min-height: 100px) {
+  /*=====Variables=======*/
+  :root {
     --font-primary: "Reem Kufi", sans-serif;
     --font-secondary: "Cabin", sans-serif;
-  
+
     --sidebar-width: 7vw;
     --sidebar-widthend: 10vw;
-  
+
     --header-main-color: #27201f;
     --header-height: 100vh;
   }
-  
+
   /*=====Main Tags=======*/
   body {
     position: absolute;
     width: 100%;
-    height: 2619px;
+    height: 3000px;
     background: #ffffff;
     font-family: var(--font-primary);
+    padding: 0%;
   }
-  
+
   a {
     color: inherit;
     text-decoration: none;
   }
-  
+
   /*=====For Seconadry Font=======*/
   .fs {
     font-family: var(--font-secondary);
   }
-  
+
   .aside {
     position: absolute;
     left: var(--sidebar-widthend);
   }
   /*=====Header Section=======*/
   .header-main {
+    margin-top: -2vh;
     width: 100%;
-    height: var(--header-height);
     background-color: var(--header-main-color);
+    height: 30%;
   }
-  
+
   /*=====NavBar Section=======*/
   .nav-bar {
     position: absolute;
@@ -56,7 +58,7 @@
     flex-direction: row;
     justify-content: space-between;
   }
-  
+
   .home-button {
     position: absolute;
     font-style: normal;
@@ -66,25 +68,25 @@
     left: var(--sidebar-widthend);
     color: #ffffff;
   }
-  
+
   .a:hover {
     color: #d4d4d4;
   }
-  
+
   .nav-btns {
     margin-right: 3vw;
     margin-top: 2vh;
     display: flex;
   }
-  
+
   .nav-btn {
     margin-left: 1vw;
     margin-right: 1vw;
     font-size: 20px;
   }
-  
+
   .xi-btn {
-    background-image: url("../images/xi.svg");
+    background-image: url("../icons/Xi-Button.png");
     background-size: contain;
     width: 40px;
     height: 40px;
@@ -93,58 +95,59 @@
     margin-left: 1vw;
     background-repeat: no-repeat;
   }
-  
+
   .xi-btn:hover {
-    background-image: url("../images/xi-hover.svg");
+    background-image: url("../icons/Xi-Button-hover.png");
   }
   /*=====Header Contents=======*/
-  
+
   .header-contents {
     position: absolute;
+    height: 116vh;
     left: var(--sidebar-widthend);
     top: 16vh;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    max-height: 100vh;
   }
-  
+
   .round-design {
-    width: 30vw;
-    height: 30vh;
+    width: 20vw;
+    height: 20vh;
     left: var(--sidebar-widthend);
-    top: 108px;
+    top: 1vh;
     background-image: url("../images/Round-design.svg");
     background-size: contain;
     background-repeat: no-repeat;
   }
-  
+
   .header-text {
-    margin-top: 8vh;
     font-family: Cabin;
-    font-size: 2rem;
-    width: 20vw;
+    font-size: 8vh;
+    width: 40vw;
     font-weight: 300;
-    line-height: 49px;
+    line-height: 10vh;
     text-align: left;
     color: white;
   }
-  
+
   .btn {
     margin-top: 5vh;
-    width: 10vw;
+    margin-bottom: 1vh;
+    width: 20vw;
     background: #ffffff;
     box-shadow: 0px 0px 32px 10px rgba(0, 0, 0, 0.25);
-    font-size: 1.5rem;
+    font-size: 4vh;
     padding: 2%;
   }
-  
+
   .header-img {
     height: 100vh;
     background-image: url(../images/BigName.svg);
   }
-  
+
   /*=====Sidebar Section=======*/
-  
+
   .side-bar {
     position: absolute;
     width: var(--sidebar-width);
@@ -159,14 +162,14 @@
     text-align: center;
     align-items: center;
   }
-  
+
   .sc-icons {
     flex-direction: column;
     align-self: center;
     margin-top: 40vh;
     margin-bottom: auto;
   }
-  
+
   .sc-icon {
     width: 3vw;
     height: 3vw;
@@ -178,21 +181,19 @@
     margin-bottom: 10vh;
   }
   /*=====Services Section=======*/
-  
+
   .blk {
-  
     background-color: #27201f;
   }
-  
+
   .indexer {
     width: 50px;
     height: 16px;
     background: #27201f;
     border-radius: 25px;
   }
-  
-  .white{
-      background-color: white;
+
+  .white {
+    background-color: white;
   }
-  
-  }
+}
