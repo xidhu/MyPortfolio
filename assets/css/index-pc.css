@@ -12,6 +12,8 @@
 
     --header-main-color: #27201f;
     --header-height: 100vh;
+
+    --color-white:#ffffff;
   }
 
   /*=====Main Tags=======*/
@@ -19,12 +21,18 @@
     position: absolute;
     width: 100%;
 
-    background: #ffffff;
+    background:var(--color-white);
     font-family: var(--font-primary);
     padding: 0%;
     overflow-x: hidden;
   }
 
+  body:after{
+    display:none;
+    content: url("../icons/Xi-Button-hover.png") url(../icons/Sidebar-Slider-1.png) 
+    url(../icons/Xi-Button-hover.png) url(../icons/sc-icons/Facebook-1.png) url(../icons/sc-icons/Instagram-1.png)
+    url(../icons/sc-icons/Twitter-1.png) url(../icons/sc-icons/LinkedIn-1.png) url(../icons/sc-icons/Pinetrest-1.png);
+   }
   .hidden-thing {
     position: absolute;
     left: 100%;
@@ -73,7 +81,7 @@
     font-size: 2rem;
     line-height: 61px;
     left: var(--sidebar-widthend);
-    color: #ffffff;
+    color:var(--color-white);
   }
 
   .a:hover {
@@ -142,7 +150,7 @@
     margin-top: 5vh;
     margin-bottom: 1vh;
     width: 20vw;
-    background: #ffffff;
+    background:var(--color-white);
     box-shadow: 0px 0px 32px 10px rgba(0, 0, 0, 0.25);
     font-size: 4vh;
     padding: 2%;
@@ -222,7 +230,7 @@
     height: 50vh;
     align-self: center;
     text-align: center;
-    padding: 10vh;
+    padding: 8vh;
   }
 
   .service-header {
@@ -412,6 +420,6 @@
   .footer-text {
     font-weight: normal;
     font-size: 2vw;
-    color: #ffffff;
+    color:var(--color-white);
   }
 }
