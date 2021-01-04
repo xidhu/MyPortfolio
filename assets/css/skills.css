@@ -1,0 +1,90 @@
+.skill-container {
+  padding: 4vw;
+  
+}
+
+.skill-header {
+  display: flex;
+  flex-direction: row;
+}
+.skill-header-text {
+  margin-left: 1vw;
+  color: white;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 4vw;
+  line-height: 3vh;
+}
+
+.github-icon{
+    background-image: url("../images/GithubIcon.svg");
+    background-size: contain;
+    width: 10vw;
+    height: 10vw;
+    background-repeat: no-repeat;
+    position: relative;
+    right: -40vw;
+    top: -5vh;
+}
+
+.skill-bar-container{
+    display: flex;
+    flex-direction: column;
+}
+
+.skill{
+    display: flex;
+    flex-direction: column;
+    margin-top: 5vh;
+    margin-bottom: 3vh;
+}
+
+.skill-text{
+    margin-left: 1vw;
+  color: white;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 2.5vw;
+  line-height: 2vh;
+}
+
+.skill-pgrs{
+    display: flex;
+    flex-direction: row;
+    margin-top: 4vh;
+    margin-left: 1vw;
+}
+
+.skill-pgrs-bar{
+    height: 2vh;
+    width: 40vw;
+    background: #FFFFFF;
+    box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.25);
+    border-radius: 23px;
+}
+
+.skill-pgrs-prst{
+    margin-left: 1vw;
+    color: white;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 2vw;
+    line-height: 2vh;
+}
+
+.blk{
+    color: #2F2B2B;
+}
+
+.bg-blk{
+    background-color: #2F2B2B;
+}
+
+.w{
+    margin-top: 2vh;
+}
+
+
+.skill-w{
+    width: 16vw;
+}

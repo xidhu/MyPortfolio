@@ -10,22 +10,27 @@
       integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1"
       crossorigin="anonymous"
     />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <link rel="stylesheet" href="./assets/css/index.css" />
     <link rel="stylesheet" href="./assets/css/icons.css" />
-    
+    <link rel="stylesheet" href="./assets/css/animations.css" />
+    <link rel="stylesheet" href="./assets/css/skills.css" />
+    <script type="text/javascript" src="./assets/js/Animations.js"></script>
     <title>Xidhu</title>
   </head>
   <body>
-    <header>
-      <div class="header-main">
+
+
+    <header id="home">
+      <section class="header-main">
         <div class="header-img"></div>
         <div class="nav-bar">
-          <p><a class="home-button fs a" href="/">xidhu</a></p>
+          <p><a class="home-button fs a " href="#home">xidhu</a></p>
           <div class="nav-btns">
-            <a class="nav-btn a" href="/">Home</a>
+            <a class="nav-btn a" href="#home">Home</a>
             <a class="nav-btn a" href="#services">Services</a>
-            <a class="nav-btn a">Skills</a>
-            <a class="nav-btn a">Contact</a>
+            <a class="nav-btn a" href="#skills">Skills</a>
+            <a class="nav-btn a" href="#contact">Contact</a>
             <div class="xi-btn"></div>
           </div>
         </div>
@@ -34,10 +39,12 @@
           <div class="header-text">
             Quality & Trendy work is my first Priority
           </div>
-          <div class="btn">Get Started</div>
+          <div class="btn ripple">Get Started</div>
         </div>
-      </div>
+      </section>
     </header>
+
+
     <aside>
       <div class="side-bar">
           <div class="sd"></div>
@@ -48,12 +55,215 @@
             <div class="sc-icon ln"></div>
             <div class="sc-icon pi"></div>
         </div>
-          <div class="xi"></div>
+          <a class="xi" href="#home"></a>
           </div>
       </div>
     </aside>
-    
 
+    
+    <section class="services-container" id="services">
+      <div class="service ripple">
+        <div class="service-header">
+          <div class="indexer"></div>
+        <h1 class="service-name">App Development</h1>
+      </div>
+      <div class="service-desc ">
+        I can develop Fast 
+        and Secure mobile
+        Apps.
+      </div>
+      </div>
+      <div class="service ripple">
+        <div class="service-header">
+          <div class="indexer"></div>
+        <h1 class="service-name">Web Development</h1>
+      </div>
+      <div class="service-desc">
+        I  make Simple 
+        and Responsive
+        Web Pages fastly.
+      </div>
+      </div>
+      <div class="service black ripple-blk">
+        <div class="service-header ">
+          <div class="indexer-white"></div>
+        <h1 class="service-name">Ui/Ux Design</h1>
+      </div>
+      <div class="service-desc white">
+        I can design Trendy 
+        and Sleek Apps/Web
+        fastly.
+      </div>
+      </div>
+    </section>
+
+    <section id="skills">
+
+      <div class="skills-container">
+
+        <div class="skills-black">
+          <div class="skill-container">
+              <div class="skill-header">
+                <div class="indexer-white"></div>
+                <div class="skill-header-text">Skills</div>
+              </div>
+              <div class="github-icon"></div>
+
+              <div class="skill-bar-container">
+                <div class="skill">
+                  <div class="skill-text">Html</div>
+                  <div class="skill-pgrs">
+                    <div class="skill-pgrs-bar"></div>
+                    <div class="skill-pgrs-prst">80%</div>
+                  </div>
+                </div>
+
+                <div class="skill">
+                  <div class="skill-text">Css</div>
+                  <div class="skill-pgrs">
+                    <div class="skill-pgrs-bar"></div>
+                    <div class="skill-pgrs-prst">80%</div>
+                  </div>
+                </div>
+
+                <div class="skill">
+                  <div class="skill-text">JavaScript</div>
+                  <div class="skill-pgrs">
+                    <div class="skill-pgrs-bar"></div>
+                    <div class="skill-pgrs-prst">80%</div>
+                  </div>
+                </div>
+
+                <div class="skill">
+                  <div class="skill-text">Dart</div>
+                  <div class="skill-pgrs">
+                    <div class="skill-pgrs-bar"></div>
+                    <div class="skill-pgrs-prst">80%</div>
+                  </div>
+                </div>
+
+              </div>
+
+          </div></div>
+
+          <div class="skills-white">
+            <div class="skill-container w">
+              
+                <div class="github-icon"></div>
+  
+                <div class="skill-bar-container">
+                  <div class="skill">
+                    <div class="skill-text blk">C</div>
+                    <div class="skill-pgrs">
+                      <div class="skill-pgrs-bar bg-blk skill-w"></div>
+                      <div class="skill-pgrs-prst blk">80%</div>
+                    </div>
+                  </div>
+  
+                  <div class="skill">
+                    <div class="skill-text blk">Java</div>
+                    <div class="skill-pgrs">
+                      <div class="skill-pgrs-bar bg-blk skill-w"></div>
+                      <div class="skill-pgrs-prst blk">80%</div>
+                    </div>
+                  </div>
+  
+                  <div class="skill">
+                    <div class="skill-text blk">Kotlin</div>
+                    <div class="skill-pgrs">
+                      <div class="skill-pgrs-bar bg-blk skill-w"></div>
+                      <div class="skill-pgrs-prst blk">80%</div>
+                    </div>
+                  </div>
+  
+                  <div class="skill">
+                    <div class="skill-text blk">Swift</div>
+                    <div class="skill-pgrs">
+                      <div class="skill-pgrs-bar bg-blk skill-w"></div>
+                      <div class="skill-pgrs-prst blk">80%</div>
+                    </div>
+                  </div>
+  
+                </div>
+        </div>
+
+        
+      </div>
+    </section>
+
+    <section id="contact">
+      <div class="contact-container">
+        <div class="contact-white">
+          
+          <div class="contacts-container">
+            <div class="contact-header">
+              <div class="indexer"></div>
+              <div class="contact-header-text">Contacts</div>
+            </div>
+            <form>
+              <div class="contact-form-container">
+                <div class="name-email-container">
+                  <div class="form-input">
+                    <input class="form-input-box" placeholder="Name">
+                  </div>
+                  <div class="form-input">
+                    <input class="form-input-box" placeholder="Email">
+                  </div>
+                </div>
+                <div class="project-input ">
+                  <div class="form-input other-input">
+                    <input class="form-input-box" placeholder="Project">
+                  </div>
+                </div>
+                <div class="project-desc-input">
+                  <div class="form-input other-input lg">
+                    <textarea class="form-input-box" placeholder="Description">sd</textarea>
+                  </div>
+                </div>
+                <div class="project-submit-btn">
+                  <div class="btn btn-submit ripple">Send Message</div>
+                  </div>
+                </div>
+              </div>
+  
+            </form>
+            </div>
+            <div class="contact-black">
+              <div class="contacts-container">
+                <div class="contact">
+                  <div class="contact-header">
+                    <div class="indexer bg-light"></div>
+                    <div class="contact-details-text white">Phone</div>
+                  </div>
+                  <div class="contact-text">+919745300590</div>
+                </div>
+                <div class="contact">
+                  <div class="contact-header">
+                    <div class="indexer bg-light"></div>
+                    <div class="contact-details-text white">Email</div>
+                  </div>
+                  <div class="contact-text">sidhu3612@gmail.com</div>
+                </div>
+              </div>
+
+            </div>
+          
+        </div>
+        
+        
+      </div>
+    </section>
+
+    <footer>
+      <section id="footer">
+        <div class="footer-container">
+          <div class="footer-text"> © 2021 Xidhu All rights Reserved </div>
+        </div>
+      </section>
+
+    </footer>
+        
+        <script type="text/javascript" src="./assets/js/settings.js"></script>
         <script type="text/javascript" src="./assets/js/index.js"></script>
   </body>
 </html>
