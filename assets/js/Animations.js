@@ -6,9 +6,15 @@ $(document).ready(function () {
             
     });
 
-    $('.btn').click(function (e) { 
+    $('.btn-strt').click(function (e) { 
         e.preventDefault();
-        $('.btn').animate({width:'25vw'});
-        $('.btn').animate({width:'20vw'});
+        let isMobile =  window.innerWidth < window.innerHeight?true:false;
+        if(isMobile){
+            $('.btn-strt').animate({width:'80vw'});
+        $('.btn-strt').animate({width:'50vw'});
+        }else{
+            $('.btn-strt').animate({width:'25vw'});
+        $('.btn-strt').animate({width:'20vw'});
+        }
     });
 });

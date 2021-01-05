@@ -1,13 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Cabin:wght@700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Reem+Kufi&display=swap");
 
-body::before{
-  display:none;
-  content: url(../icons/Xi-Button-hover.png) url(../icons/Sidebar-Slider-1.png) 
-  url(../icons/Xi-Button-hover.png) url(../icons/sc-icons/Facebook-1.png) url(../icons/sc-icons/Instagram-1.png)
-  url(../icons/sc-icons/Twitter-1.png) url(../icons/sc-icons/LinkedIn-1.png) url(../icons/sc-icons/Pinetrest-1.png);
- }
- 
 @media only screen and (orientation: landscape) and (min-device-aspect-ratio:4/3) {
   /*=====Variables=======*/
   :root {
@@ -34,14 +27,13 @@ body::before{
     overflow-x: hidden;
   }
 
-  
-  .hidden-thing {
-    position: absolute;
-    left: 100%;
-    width: 50px;
-    height: 50px;
-    opacity: 0;
-  }
+  body:after{
+    display:none;
+    content: url("../icons/Xi-Button-hover.png") url(../icons/Sidebar-Slider-1.png) 
+    url(../icons/Xi-Button-hover.png) url(../icons/sc-icons/Facebook-1.png) url(../icons/sc-icons/Instagram-1.png)
+    url(../icons/sc-icons/Twitter-1.png) url(../icons/sc-icons/LinkedIn-1.png) url(../icons/sc-icons/Pinetrest-1.png);
+   }
+
 
   a {
     color: inherit;
@@ -74,6 +66,10 @@ body::before{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+  }
+
+  .mb-drawer-open{
+    display: none;
   }
 
   .home-button {
@@ -148,7 +144,7 @@ body::before{
     color: white;
   }
 
-  .btn {
+  .btn-strt {
     margin-top: 5vh;
     margin-bottom: 1vh;
     width: 20vw;
@@ -156,6 +152,7 @@ body::before{
     box-shadow: 0px 0px 32px 10px rgba(0, 0, 0, 0.25);
     font-size: 4vh;
     padding: 2%;
+    text-align: center;
   }
 
   .header-img {
@@ -200,6 +197,10 @@ body::before{
   }
   /*=====Services Section=======*/
 
+
+  .mb-services-container{
+    display: none;
+  }
   .black {
     background-color: #27201f;
     color: white;
@@ -379,6 +380,11 @@ body::before{
   color: white;
   margin-top: 13vh;
   margin-left: 4vw;
+  width: 20vw;
+  height: 10vh;
+  text-align: center;
+  padding-top: 2.5vh;
+  font-size: 2vw;
 }
 
 .contact{
@@ -405,6 +411,8 @@ body::before{
   font-size: 2vw;
   line-height: 2vh;
 }
+
+
 
   /*=====Footer Section=======*/
 
