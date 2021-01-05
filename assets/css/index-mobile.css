@@ -21,7 +21,7 @@
       font-family: var(--font-primary);
       padding: 0%;
       overflow-x: hidden;
-      height: 3000px;
+      height: 2500px;
     }
   
     body:after{
@@ -71,8 +71,8 @@
     width: 4vh;
     height: 4vh;
     left: var(--sidebar-widthend);
-    margin-left: 5vw;
-    margin-top: 2vh;
+    margin-left: 6vw;
+    margin-top: 3vh;
     top: 4vh;
     background-image: url("../icons/Drawer-Open.png");
     background-size: contain;
@@ -87,10 +87,10 @@
     position: absolute;
     font-style: normal;
     font-weight: bold;
-    font-size: 5vh;
+    font-size: 6vh;
     line-height: 61px;
     right: 10vw;
-    top: -1vw;
+    top: 2vw;
     color:var(--color-white);
   }
 
@@ -115,17 +115,18 @@
 
    .header-contents {
     position: absolute;
-    height: 100vh;
+    height: 90vh;
     left: 6vw;
-    top: 16vh;
+    top: 13vh;
     display: flex;
     flex-direction: column;
+    justify-content: space-around;
     max-height: 100vh;
   }
 
   .round-design {
-    width: 30vw;
-    height: 30vh;
+    width: 25vw;
+    height: 20vh;
     left: 6vw;
     top: 1vh;
     background-image: url("../images/Round-design.svg");
@@ -136,23 +137,23 @@
   .header-text {
     font-family: Cabin;
     font-size: 6vh;
+    margin-top: -28vh;
     width: 60vw;
     font-weight: 300;
-    line-height: 8vh;
+    line-height: 7vh;
     text-align: left;
     color: white;
   }
 
   .btn-strt {
-    margin-top: 6vh;
-    margin-bottom: 1vh;
+    margin-top: -20vh;
     width: 50vw;
-    height: 10vh;
+    height: 8vh;
     background:var(--color-white);
     box-shadow: 0px 0px 32px 10px rgba(0, 0, 0, 0.25);
-    font-size: 5vh;
+    font-size: 6vw;
     text-align: center;
-    padding: 2vw;
+    padding-top: 1.5vh;
   }
 
   .header-img {
@@ -199,28 +200,29 @@
    
     .service {
       width: 50vw;
-      height: 37vh;
+      height: 34vh;
       align-self: center;
       text-align: center;
-      padding: 8vw;
+      padding: 6vw;
     }
 
     .black {
       background-color: #27201f;
       color: white;
       width: 100vw;
-      height: 40vh;
+      height: 34vh;
       padding: 18vw;
     }
   
     .service-header {
+      margin-top: 1vh;
       display: flex;
       flex-direction: row;
       justify-content: center;
     }
   
     .service-name {
-      font-size: 4vw;
+      font-size: 5vw;
       margin-top: -1vh;
       margin-left: 1vw;
       word-wrap: none;
@@ -232,7 +234,7 @@
       font-style: normal;
       font-weight: normal;
       font-size: 4vw;
-      line-height: 6vh;
+      line-height: 3vh;
       color: rgba(39, 32, 31, 0.63);
     }
   

@@ -76,10 +76,11 @@
     position: absolute;
     font-style: normal;
     font-weight: bold;
-    font-size: 2rem;
+    font-size: 6vh;
     line-height: 61px;
     left: var(--sidebar-widthend);
     color:var(--color-white);
+    top: 3vh;
   }
 
   .a:hover {
@@ -95,14 +96,14 @@
   .nav-btn {
     margin-left: 1vw;
     margin-right: 1vw;
-    font-size: 20px;
+    font-size: 4vh;
   }
 
   .xi-btn {
     background-image: url("../icons/Xi-Button.png");
     background-size: contain;
-    width: 40px;
-    height: 40px;
+    width: 8vh;
+    height: 8vh;
     align-items: flex-end;
     margin-top: -1vh;
     margin-left: 1vw;
@@ -412,7 +413,9 @@
   line-height: 2vh;
 }
 
-
+.mb-contact-container{
+  display: none;
+}
 
   /*=====Footer Section=======*/
 
