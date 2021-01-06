@@ -1,4 +1,6 @@
+
 $(document).ready(function () {
+    
     $('body').fadeOut(0, function () {
             
     });
@@ -16,5 +18,16 @@ $(document).ready(function () {
             $('.btn-strt').animate({width:'25vw'});
         $('.btn-strt').animate({width:'20vw'});
         }
+    });
+
+    $(".mb-drawer-open").click(function (e) { 
+     
+        $('.drawer').animate({left:'-6vw'});
+        $('body').click(function (e) { 
+            let classList = ["drawer-container","mb-drawer-open"];
+            if(!classList.includes(e.target.className) ){
+                $('.drawer').animate({left:'-70vw'});
+            }
+        });
     });
 });

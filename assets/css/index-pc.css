@@ -1,7 +1,24 @@
 @import url("https://fonts.googleapis.com/css2?family=Cabin:wght@700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Reem+Kufi&display=swap");
 
-@media only screen and (orientation: landscape) and (min-device-aspect-ratio:4/3) {
+/*=====CSS Reset=======*/
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, caption {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+  -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+       -moz-user-select: none; /* Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none;
+}
+
+@media only screen and (orientation: landscape) and (min-device-aspect-ratio: 4/3) {
   /*=====Variables=======*/
   :root {
     --font-primary: "Reem Kufi", sans-serif;
@@ -13,7 +30,7 @@
     --header-main-color: #27201f;
     --header-height: 100vh;
 
-    --color-white:#ffffff;
+    --color-white: #ffffff;
   }
 
   /*=====Main Tags=======*/
@@ -21,19 +38,11 @@
     position: absolute;
     width: 100%;
 
-    background:var(--color-white);
+    background: var(--color-white);
     font-family: var(--font-primary);
     padding: 0%;
     overflow-x: hidden;
   }
-
-  body:after{
-    display:none;
-    content: url("../icons/Xi-Button-hover.png") url(../icons/Sidebar-Slider-1.png) 
-    url(../icons/Xi-Button-hover.png) url(../icons/sc-icons/Facebook-1.png) url(../icons/sc-icons/Instagram-1.png)
-    url(../icons/sc-icons/Twitter-1.png) url(../icons/sc-icons/LinkedIn-1.png) url(../icons/sc-icons/Pinetrest-1.png);
-   }
-
 
   a {
     color: inherit;
@@ -55,6 +64,46 @@
     background-color: var(--header-main-color);
   }
 
+  .drawer{
+    display: none;
+  }
+  .sd{
+    margin-top: 3vh;
+    align-self: start;
+    background-image: url(../icons/Sidebar-Slider.svg);
+    width: 3vw;
+    height: 3vw;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.sd:hover{
+  filter: brightness(300%);
+}
+
+.xi{
+  margin-bottom: 3vh;
+  align-self: start;
+  background-image: url(../icons/Xi-Button.svg);
+  width: 3vw;
+  height: 3vw;
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin-left: auto;
+  margin-right: auto;
+  transform: 2s ease;
+}
+
+.xi:hover{
+  
+  -webkit-transform: scale(1.2);
+  transform: scale(1.2);
+  filter: opacity(100%);
+}
+
+
   /*=====NavBar Section=======*/
   .nav-bar {
     position: absolute;
@@ -68,7 +117,7 @@
     justify-content: space-between;
   }
 
-  .mb-drawer-open{
+  .mb-drawer-open {
     display: none;
   }
 
@@ -79,12 +128,14 @@
     font-size: 6vh;
     line-height: 61px;
     left: var(--sidebar-widthend);
-    color:var(--color-white);
+    color: var(--color-white);
     top: 3vh;
   }
 
   .a:hover {
     color: #d4d4d4;
+    -webkit-transform: scale(1.05);
+    transform: scale(1.05);
   }
 
   .nav-btns {
@@ -100,7 +151,7 @@
   }
 
   .xi-btn {
-    background-image: url("../icons/Xi-Button.png");
+    background-image: url("../icons/Xi-Button.svg");
     background-size: contain;
     width: 8vh;
     height: 8vh;
@@ -108,10 +159,13 @@
     margin-top: -1vh;
     margin-left: 1vw;
     background-repeat: no-repeat;
+    transform: 2s ease;
   }
 
   .xi-btn:hover {
-    background-image: url("../icons/Xi-Button-hover.png");
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
+    filter: opacity(50%);
   }
   /*=====Header Contents=======*/
 
@@ -149,7 +203,7 @@
     margin-top: 5vh;
     margin-bottom: 1vh;
     width: 20vw;
-    background:var(--color-white);
+    background: var(--color-white);
     box-shadow: 0px 0px 32px 10px rgba(0, 0, 0, 0.25);
     font-size: 4vh;
     padding: 2%;
@@ -198,8 +252,7 @@
   }
   /*=====Services Section=======*/
 
-
-  .mb-services-container{
+  .mb-services-container {
     display: none;
   }
   .black {
@@ -292,7 +345,6 @@
   .contact-black {
     background-color: #2f2b2b;
     width: 36.21vw;
-    
   }
 
   .contact-container {
@@ -303,15 +355,11 @@
     height: 110vh;
   }
 
-  .contacts-container{
+  .contacts-container {
     display: flex;
     flex-direction: column;
     width: 61.7vw;
-    
   }
-  
-
- 
 
   .contact-header {
     display: flex;
@@ -348,17 +396,15 @@
     margin-top: 4vh;
   }
 
-  .other-input{
+  .other-input {
     width: 43vw;
-    
   }
 
-  .lg{
-    
+  .lg {
     height: 40vh;
   }
 
-  .form-input-box{
+  .form-input-box {
     margin-top: 3vh;
     border: none;
     background-color: transparent;
@@ -370,52 +416,49 @@
     resize: none;
   }
 
-
-
   *:focus {
     outline: none;
-}
+  }
 
-.btn-submit{
-  background-color: #27201f;
-  color: white;
-  margin-top: 13vh;
-  margin-left: 4vw;
-  width: 20vw;
-  height: 10vh;
-  text-align: center;
-  padding-top: 2.5vh;
-  font-size: 2vw;
-}
+  .btn-submit {
+    background-color: #27201f;
+    color: white;
+    margin-top: 13vh;
+    margin-left: 4vw;
+    width: 20vw;
+    height: 10vh;
+    text-align: center;
+    padding-top: 2.5vh;
+    font-size: 2vw;
+  }
 
-.contact{
-  color: white;
-  margin-top: 34vh;
-  margin-left: 6vw;
-}
+  .contact {
+    color: white;
+    margin-top: 34vh;
+    margin-left: 6vw;
+  }
 
-.contact-details-text{
-   margin-left: 1vw;
-  color: white;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 3vw;
-  line-height: 2vh;
+  .contact-details-text {
+    margin-left: 1vw;
+    color: white;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 3vw;
+    line-height: 2vh;
+  }
+  .contact-text {
+    margin-top: 4vh;
+    margin-left: 1vw;
+    color: rgba(255, 255, 255, 0.63);
+    font-style: normal;
+    font-weight: normal;
+    font-size: 2vw;
+    line-height: 2vh;
+  }
 
-}
-.contact-text{
-  margin-top: 4vh;
-  margin-left: 1vw;
-  color:rgba(255, 255, 255, 0.63);
-  font-style: normal;
-  font-weight: normal;
-  font-size: 2vw;
-  line-height: 2vh;
-}
-
-.mb-contact-container{
-  display: none;
-}
+  .mb-contact-container {
+    display: none;
+  }
 
   /*=====Footer Section=======*/
 
@@ -433,6 +476,6 @@
   .footer-text {
     font-weight: normal;
     font-size: 2vw;
-    color:var(--color-white);
+    color: var(--color-white);
   }
 }
