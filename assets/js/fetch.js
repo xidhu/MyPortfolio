@@ -40,7 +40,6 @@ const convertToPercentage = (data) => {
   });
   
   setTimeout(()=>{
-    console.log(langRawList);
     let total = 0;
     langs.forEach((lan)=>{
         langRawList.forEach((l)=>{
