@@ -1,6 +1,6 @@
 let url = "https://api.github.com/users/xidhu/repos";
 let reponames, langRawList =[];
-let langs = [{language:"HTML",count:0},{language:"CSS",count:0},{language:"JavaScript",count:0},{language:"Dart",count:0},{language:"C",count:0},{language:"Java",count:0},{language:"Kotlin",count:0},{language:"Shell",count:0}];
+let langs = [{language:"HTML",count:0},{language:"CSS",count:0},{language:"JavaScript",count:0},{language:"Dart",count:0},{language:"C",count:0},{language:"Java",count:0},{language:"Kotlin",count:0},{language:"Swift",count:0}];
 
 
 const setSkills = () => {
