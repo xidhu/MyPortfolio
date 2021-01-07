@@ -29,5 +29,49 @@
     transition: background 0s;
   }
 
+  .ripple-change {
+    background-position: center;
+    transition: background 1s;
+  }
+  .ripple-change:hover {
+    background: #27201f
+    radial-gradient(circle, transparent 1%,#27201f
+    1%) center/15000%;
+    color: white;
+  }
+  .ripple-change:hover  .indexer{
+    background-color: white;
+  }
+  .ripple-change:hover  .service-desc{
+    color: white;
+  }
+  .ripple-change:active {
+    background-color: #181717;
+    background-size: 100%;
+    transition: background 0s;
+  }
+
+  .ripple-change-blk {
+    background-position: center;
+    transition: background 1s;
+  }
+  .ripple-change-blk:hover {
+    background: #ffffff
+    radial-gradient(circle, transparent 1%,#ffffff
+    1%) center/15000%;
+    color: black;
+  }
+  .ripple-change-blk:hover  .indexer-white{
+    background-color: #27201f;
+  }
+  .ripple-change-blk:hover  .service-desc{
+    color: rgba(39, 32, 31, 0.63);
+  }
+  .ripple-change-blk:active {
+    background-color: #a0a0a0;
+    background-size: 100%;
+    transition: background 0s;
+  }
+
   
   

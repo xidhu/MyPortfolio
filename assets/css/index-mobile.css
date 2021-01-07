@@ -391,7 +391,7 @@
     margin-top: -0.6vh;
     color: #2f2b2b;
     font-style: normal;
-    font-weight: normal;
+    font-weight: bold;
     font-size: 6vw;
     line-height: 3vh;
   }
@@ -452,6 +452,10 @@
     height: 10vh;
     text-align: center;
     padding-top: 2vh;
+  }
+
+  .bg-light {
+    margin-top: 0.2vh;
   }
 
   .mb-contact-container {
