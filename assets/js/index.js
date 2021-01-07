@@ -21,7 +21,7 @@ const sendData = (nm, em, pr, desc) => {
   Email.send({
     Host : "smtp.elasticemail.com",
     Username : "sidhu3612@gmail.com",
-    Password : "3BD47ABBCE9BFCCD324B74A35BD48A1A4AC5",
+    Password : /*Password*/,
     To : em,
     From : "sidhu3612@gmail.com",
     Subject : "Project Details Recieved",
