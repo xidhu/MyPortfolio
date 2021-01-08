@@ -1,4 +1,4 @@
-const createEmailBody = (nm,bd,ftr) => {
+const createEmailBody = (nm,bd,ftr,em) => {
   return  `<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
   <head>
@@ -199,7 +199,7 @@ const createEmailBody = (nm,bd,ftr) => {
                         <tbody>
                           <tr>
                             <td valign="top" class="edtext" style="padding: 20px; text-align: left; color: #5f5f5f; font-size: 14px; font-family: Helvetica, Arial, sans-serif; word-break: break-word; direction: ltr; box-sizing: border-box;">
-                              <p class="text-center" style="text-align: center; margin: 0px; padding: 0px;">Have a question? Contact us: sidhu3612@gmail.com
+                              <p class="text-center" style="text-align: center; margin: 0px; padding: 0px;">Have a question? Contact us: ${em}
                               </p>
                             </td>
                           </tr>
