@@ -25,7 +25,7 @@ const sendData = (nm, em, pr, desc) => {
     To : em,
     From : "sidhu3612@gmail.com",
     Subject : "Project Details Recieved",
-    Body : createEmailBody("Hi,<br>"+nm+"<br>","Thank You For Messaging Me..!","i will send a response within one week."),
+    Body : createEmailBody("Hi,<br>"+nm+"<br>","Thank You For Messaging Me..!","i will send a response within one week.","sidhu3612@gmail.com"),
 }).then(
   (message) => {alert(message == "OK"?"Message Sent Check Your Mail Spam Folder":"Message Not Sent..Try Again..!");
   Email.send({
@@ -35,7 +35,7 @@ const sendData = (nm, em, pr, desc) => {
     To : "sidhu3612@gmail.com",
     From : "sidhu3612@gmail.com",
     Subject : "Project Details",
-    Body : createEmailBody("Name :"+nm,"Project Name :"+pr,"Description :"+desc),
+    Body : createEmailBody("Name :"+nm,"Project Name :"+pr,"Description :"+desc,em),
 });}
 );
 };
