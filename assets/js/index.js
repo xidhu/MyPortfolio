@@ -20,8 +20,8 @@ get_started_btn.addEventListener("click", (e) => {
 const sendData = (nm, em, pr, desc) => {
   Email.send({
     Host : "smtp.elasticemail.com",
-    Username : "sidhu3612@gmail.com",
-    Password : "3BD47ABBCE9BFCCD324B74A35BD48A1A4AC5",
+    Username : "$USERNAME",
+    Password : "$PASSWORD",
     To : em,
     From : "sidhu3612@gmail.com",
     Subject : "Project Details Recieved",
@@ -30,8 +30,8 @@ const sendData = (nm, em, pr, desc) => {
   (message) => {alert(message == "OK"?"Message Sent Check Your Mail Spam Folder":"Message Not Sent..Try Again..!");
   Email.send({
     Host : "smtp.elasticemail.com",
-    Username : "sidhu3612@gmail.com",
-    Password : "3BD47ABBCE9BFCCD324B74A35BD48A1A4AC5",
+    Username : "$USERNAME",
+    Password : "$PASSWORD",
     To : "sidhu3612@gmail.com",
     From : "sidhu3612@gmail.com",
     Subject : "Project Details",
