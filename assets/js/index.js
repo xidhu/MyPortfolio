@@ -19,21 +19,21 @@ get_started_btn.addEventListener("click", (e) => {
 
 const sendData = (nm, em, pr, desc) => {
   Email.send({
-    Host : "smtp.elasticemail.com",
+    Host : "$DOMAIN",
     Username : "$USERNAME",
     Password : "$PASSWORD",
     To : em,
-    From : "sidhu3612@gmail.com",
+    From : "$EMAIL",
     Subject : "Project Details Recieved",
-    Body : createEmailBody("Hi,<br>"+nm+"<br>","Thank You For Messaging Me..!","i will send a response within one week.","sidhu3612@gmail.com"),
+    Body : createEmailBody("Hi,<br>"+nm+"<br>","Thank You For Messaging Me..!","i will send a response within one week.","$EMAIL"),
 }).then(
   (message) => {alert(message == "OK"?"Message Sent Check Your Mail Spam Folder":"Message Not Sent..Try Again..!");
   Email.send({
-    Host : "smtp.elasticemail.com",
+    Host : "$DOMAIN",
     Username : "$USERNAME",
     Password : "$PASSWORD",
-    To : "sidhu3612@gmail.com",
-    From : "sidhu3612@gmail.com",
+    To : "$EMAIL",
+    From : "$EMAIL",
     Subject : "Project Details",
     Body : createEmailBody("Name :"+nm,"Project Name :"+pr,"Description :"+desc,em),
 });}
